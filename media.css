@@ -1,0 +1,67 @@
+@media screen and (max-width: 991px) {
+
+    /*SPACEX LOGO*/
+
+    .spacex-logo{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-right: 0;
+    }
+
+    .spacex-logo img{
+        width: 150px;
+    }
+
+    /*Make it relative to make the "Menu" positioned absolute*/
+
+    .top_nav{
+        position: relative;
+        height: 40px;
+    }
+
+    .shop-small-screen{
+        position: absolute;
+        right: 10%;
+        bottom: -6px;
+    }
+
+    /*Editing the "SHOP" meny for small screen*/
+
+    .shop-menu{
+        padding: 0;
+    }
+
+    .sm-one{
+        display: none;
+    }
+
+    /*Footer*/
+
+    .company{
+        justify-content: center;
+    }
+
+    .contact-menu{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ft-ft{
+        padding: 40px 0px 40px 20px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .info-abs{
+        bottom: 10%;
+    }
+
+    .first-des{
+        font-size: 15px;
+    }
+
+    .second-des{
+        font-size: 35px;
+    }
+}
